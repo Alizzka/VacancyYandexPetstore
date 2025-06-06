@@ -1,70 +1,80 @@
 [ {
-  "uid" : "cf0abb1c8554f65d",
-  "name" : "createPetTest()",
-  "time" : {
-    "start" : 1749214393348,
-    "stop" : 1749214397058,
-    "duration" : 3710
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a4e5ad8ccdb0be5",
-  "name" : "getPetByIdTest()",
-  "time" : {
-    "start" : 1749214400030,
-    "stop" : 1749214402666,
-    "duration" : 2636
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6aed878ba8c3827a",
-  "name" : "getUserByUsernameTest()",
-  "time" : {
-    "start" : 1749214407659,
-    "stop" : 1749214410043,
-    "duration" : 2384
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf818e509c929e41",
+  "uid" : "3d16f6f250e72112",
   "name" : "deletePetTest()",
   "time" : {
-    "start" : 1749214397129,
-    "stop" : 1749214400021,
-    "duration" : 2892
+    "start" : 1749251222080,
+    "stop" : 1749251224978,
+    "duration" : 2898
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fd47347b45031477",
-  "name" : "deleteUserTest()",
+  "uid" : "748f0bc97e54c2c7",
+  "name" : "getPetByIdTest()",
   "time" : {
-    "start" : 1749214410055,
-    "stop" : 1749214411752,
-    "duration" : 1697
+    "start" : 1749251224988,
+    "stop" : 1749251227841,
+    "duration" : 2853
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7df8d21de333e937",
+  "uid" : "e432ba3e81579ec0",
   "name" : "updateUserTest()",
   "time" : {
-    "start" : 1749214402673,
-    "stop" : 1749214405930,
-    "duration" : 3257
+    "start" : 1749251230309,
+    "stop" : 1749251233973,
+    "duration" : 3664
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2e0f422f269c6795",
+  "uid" : "a697a9c669cdfc42",
+  "name" : "getUserByUsernameTest()",
+  "time" : {
+    "start" : 1749251235830,
+    "stop" : 1749251238464,
+    "duration" : 2634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "145b215895ceecd6",
+  "name" : "createPetTest()",
+  "time" : {
+    "start" : 1749251216799,
+    "stop" : 1749251222027,
+    "duration" : 5228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c78a1caa40140c5",
+  "name" : "deleteUserTest()",
+  "time" : {
+    "start" : 1749251238469,
+    "stop" : 1749251240072,
+    "duration" : 1603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1392cbd92b5da4f",
   "name" : "createUserTest()",
   "time" : {
-    "start" : 1749214405945,
-    "stop" : 1749214407647,
-    "duration" : 1702
+    "start" : 1749251233985,
+    "stop" : 1749251235820,
+    "duration" : 1835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "522aff2e37e469d9",
+  "name" : "shouldUpdatePetSuccessfully()",
+  "time" : {
+    "start" : 1749251227853,
+    "stop" : 1749251230294,
+    "duration" : 2441
   },
   "status" : "passed",
   "severity" : "normal"

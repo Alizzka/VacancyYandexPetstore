@@ -1,5 +1,5 @@
 {
-  "total" : 4,
+  "total" : 5,
   "items" : [ {
     "uid" : "a549315b99e3448c6f3bdaf6ae087a6a",
     "name" : "petstore.tests.UserTest",
@@ -36,6 +36,17 @@
   }, {
     "uid" : "9e4f5f2a70d3b454d04eabfdfb9f8f72",
     "name" : "petstore.tests.GetPetTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "87159db7c3f082bf6c3b430a878679c6",
+    "name" : "petstore.tests.UpdatePetTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

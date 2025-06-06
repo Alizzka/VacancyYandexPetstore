@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="petstore.tests.CreatePetTest" time="5.335" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="petstore.tests.UpdatePetTest" time="2.454" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,9 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="createPetTest" classname="petstore.tests.CreatePetTest" time="5.27">
+  <testcase name="shouldUpdatePetSuccessfully" classname="petstore.tests.UpdatePetTest" time="2.448">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Fri, 06 Jun 2025 23:06:59 GMT
+Date: Fri, 06 Jun 2025 23:07:08 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -70,25 +70,53 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 2811,
+    "id": 2814,
     "category": {
-        "id": 2811,
-        "name": "string"
+        "id": 2814,
+        "name": "cats"
     },
-    "name": "rigo",
+    "name": "Barsik",
     "photoUrls": [
         "string"
     ],
     "tags": [
         {
-            "id": 2811,
-            "name": "string"
+            "id": 2814,
+            "name": "fluffy"
         }
     ],
     "status": "available"
 }
 HTTP/1.1 200 OK
-Date: Fri, 06 Jun 2025 23:07:01 GMT
+Date: Fri, 06 Jun 2025 23:07:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 2814,
+    "category": {
+        "id": 2814,
+        "name": "cats"
+    },
+    "name": "UpdatedName",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2814,
+            "name": "fluffy"
+        }
+    ],
+    "status": "sold"
+}
+HTTP/1.1 200 OK
+Date: Fri, 06 Jun 2025 23:07:10 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -100,12 +128,8 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "2811"
+    "message": "2814"
 }
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
   </testcase>
 </testsuite>

@@ -1,12 +1,12 @@
 {
-  "uid" : "7df8d21de333e937",
+  "uid" : "e432ba3e81579ec0",
   "name" : "updateUserTest()",
   "fullName" : "petstore.tests.UserTest.updateUserTest",
   "historyId" : "451fa7535665c85a2fd3bfd098cc772e",
   "time" : {
-    "start" : 1749214402673,
-    "stop" : 1749214405930,
-    "duration" : 3257
+    "start" : 1749251230309,
+    "stop" : 1749251233973,
+    "duration" : 3664
   },
   "description" : "Обновление пользователя",
   "descriptionHtml" : "<p>Обновление пользователя</p>\n",
@@ -27,7 +27,7 @@
     "value" : "MSI-Prestige"
   }, {
     "name" : "thread",
-    "value" : "31124@MSI-Prestige.main(1)"
+    "value" : "20516@MSI-Prestige.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7df8d21de333e937.json",
+  "source" : "e432ba3e81579ec0.json",
   "parameterValues" : [ ]
 }

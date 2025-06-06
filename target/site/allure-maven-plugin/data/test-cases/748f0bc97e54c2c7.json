@@ -1,15 +1,15 @@
 {
-  "uid" : "cf0abb1c8554f65d",
-  "name" : "createPetTest()",
-  "fullName" : "petstore.tests.CreatePetTest.createPetTest",
-  "historyId" : "b09fd3f33325af0b5f0e0cd05507b45c",
+  "uid" : "748f0bc97e54c2c7",
+  "name" : "getPetByIdTest()",
+  "fullName" : "petstore.tests.GetPetTest.getPetByIdTest",
+  "historyId" : "8f4f3d133df0228aca884e49cfd543ea",
   "time" : {
-    "start" : 1749214393348,
-    "stop" : 1749214397058,
-    "duration" : 3710
+    "start" : 1749251224988,
+    "stop" : 1749251227841,
+    "duration" : 2853
   },
-  "description" : "Создание питомца",
-  "descriptionHtml" : "<p>Создание питомца</p>\n",
+  "description" : "Получение питомца по ID",
+  "descriptionHtml" : "<p>Получение питомца по ID</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -21,13 +21,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:petstore.tests.CreatePetTest]/[method:createPetTest()]"
+    "value" : "[engine:junit-jupiter]/[class:petstore.tests.GetPetTest]/[method:getPetByIdTest()]"
   }, {
     "name" : "host",
     "value" : "MSI-Prestige"
   }, {
     "name" : "thread",
-    "value" : "31124@MSI-Prestige.main(1)"
+    "value" : "20516@MSI-Prestige.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -36,16 +36,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "petstore.tests.CreatePetTest"
+    "value" : "petstore.tests.GetPetTest"
   }, {
     "name" : "testClass",
-    "value" : "petstore.tests.CreatePetTest"
+    "value" : "petstore.tests.GetPetTest"
   }, {
     "name" : "testMethod",
-    "value" : "createPetTest"
+    "value" : "getPetByIdTest"
   }, {
     "name" : "suite",
-    "value" : "petstore.tests.CreatePetTest"
+    "value" : "petstore.tests.GetPetTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cf0abb1c8554f65d.json",
+  "source" : "748f0bc97e54c2c7.json",
   "parameterValues" : [ ]
 }

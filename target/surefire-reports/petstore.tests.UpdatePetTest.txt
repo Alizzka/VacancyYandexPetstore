@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: petstore.tests.UserTest
+Test set: petstore.tests.UpdatePetTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.771 s - in petstore.tests.UserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.454 s - in petstore.tests.UpdatePetTest

@@ -1,15 +1,15 @@
 {
-  "uid" : "fd47347b45031477",
-  "name" : "deleteUserTest()",
-  "fullName" : "petstore.tests.UserTest.deleteUserTest",
-  "historyId" : "942ed1ec4dcee54fc2bbae29cb01aa98",
+  "uid" : "a697a9c669cdfc42",
+  "name" : "getUserByUsernameTest()",
+  "fullName" : "petstore.tests.UserTest.getUserByUsernameTest",
+  "historyId" : "ddcf943e3dd3a1d4c8914efc3809cc4e",
   "time" : {
-    "start" : 1749214410055,
-    "stop" : 1749214411752,
-    "duration" : 1697
+    "start" : 1749251235830,
+    "stop" : 1749251238464,
+    "duration" : 2634
   },
-  "description" : "Удаление пользователя",
-  "descriptionHtml" : "<p>Удаление пользователя</p>\n",
+  "description" : "Получение пользователя по username",
+  "descriptionHtml" : "<p>Получение пользователя по username</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -21,13 +21,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:petstore.tests.UserTest]/[method:deleteUserTest()]"
+    "value" : "[engine:junit-jupiter]/[class:petstore.tests.UserTest]/[method:getUserByUsernameTest()]"
   }, {
     "name" : "host",
     "value" : "MSI-Prestige"
   }, {
     "name" : "thread",
-    "value" : "31124@MSI-Prestige.main(1)"
+    "value" : "20516@MSI-Prestige.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -42,7 +42,7 @@
     "value" : "petstore.tests.UserTest"
   }, {
     "name" : "testMethod",
-    "value" : "deleteUserTest"
+    "value" : "getUserByUsernameTest"
   }, {
     "name" : "suite",
     "value" : "petstore.tests.UserTest"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fd47347b45031477.json",
+  "source" : "a697a9c669cdfc42.json",
   "parameterValues" : [ ]
 }

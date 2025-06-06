@@ -1,15 +1,15 @@
 {
-  "uid" : "cf818e509c929e41",
-  "name" : "deletePetTest()",
-  "fullName" : "petstore.tests.DeletePetTest.deletePetTest",
-  "historyId" : "2529e6777633d31d429888dfdc2e426b",
+  "uid" : "6c78a1caa40140c5",
+  "name" : "deleteUserTest()",
+  "fullName" : "petstore.tests.UserTest.deleteUserTest",
+  "historyId" : "942ed1ec4dcee54fc2bbae29cb01aa98",
   "time" : {
-    "start" : 1749214397129,
-    "stop" : 1749214400021,
-    "duration" : 2892
+    "start" : 1749251238469,
+    "stop" : 1749251240072,
+    "duration" : 1603
   },
-  "description" : "Удаление питомца и проверка, что он отсутствует",
-  "descriptionHtml" : "<p>Удаление питомца и проверка, что он отсутствует</p>\n",
+  "description" : "Удаление пользователя",
+  "descriptionHtml" : "<p>Удаление пользователя</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -21,13 +21,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:petstore.tests.DeletePetTest]/[method:deletePetTest()]"
+    "value" : "[engine:junit-jupiter]/[class:petstore.tests.UserTest]/[method:deleteUserTest()]"
   }, {
     "name" : "host",
     "value" : "MSI-Prestige"
   }, {
     "name" : "thread",
-    "value" : "31124@MSI-Prestige.main(1)"
+    "value" : "20516@MSI-Prestige.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -36,16 +36,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "petstore.tests.DeletePetTest"
+    "value" : "petstore.tests.UserTest"
   }, {
     "name" : "testClass",
-    "value" : "petstore.tests.DeletePetTest"
+    "value" : "petstore.tests.UserTest"
   }, {
     "name" : "testMethod",
-    "value" : "deletePetTest"
+    "value" : "deleteUserTest"
   }, {
     "name" : "suite",
-    "value" : "petstore.tests.DeletePetTest"
+    "value" : "petstore.tests.UserTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cf818e509c929e41.json",
+  "source" : "6c78a1caa40140c5.json",
   "parameterValues" : [ ]
 }

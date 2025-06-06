@@ -1,15 +1,15 @@
 {
-  "uid" : "6aed878ba8c3827a",
-  "name" : "getUserByUsernameTest()",
-  "fullName" : "petstore.tests.UserTest.getUserByUsernameTest",
-  "historyId" : "ddcf943e3dd3a1d4c8914efc3809cc4e",
+  "uid" : "522aff2e37e469d9",
+  "name" : "shouldUpdatePetSuccessfully()",
+  "fullName" : "petstore.tests.UpdatePetTest.shouldUpdatePetSuccessfully",
+  "historyId" : "8077ce3c797d10bf694eaac04ed5da38",
   "time" : {
-    "start" : 1749214407659,
-    "stop" : 1749214410043,
-    "duration" : 2384
+    "start" : 1749251227853,
+    "stop" : 1749251230294,
+    "duration" : 2441
   },
-  "description" : "Получение пользователя по username",
-  "descriptionHtml" : "<p>Получение пользователя по username</p>\n",
+  "description" : "Обновление питомца",
+  "descriptionHtml" : "<p>Обновление питомца</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -21,13 +21,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:petstore.tests.UserTest]/[method:getUserByUsernameTest()]"
+    "value" : "[engine:junit-jupiter]/[class:petstore.tests.UpdatePetTest]/[method:shouldUpdatePetSuccessfully()]"
   }, {
     "name" : "host",
     "value" : "MSI-Prestige"
   }, {
     "name" : "thread",
-    "value" : "31124@MSI-Prestige.main(1)"
+    "value" : "20516@MSI-Prestige.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -36,16 +36,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "petstore.tests.UserTest"
+    "value" : "petstore.tests.UpdatePetTest"
   }, {
     "name" : "testClass",
-    "value" : "petstore.tests.UserTest"
+    "value" : "petstore.tests.UpdatePetTest"
   }, {
     "name" : "testMethod",
-    "value" : "getUserByUsernameTest"
+    "value" : "shouldUpdatePetSuccessfully"
   }, {
     "name" : "suite",
-    "value" : "petstore.tests.UserTest"
+    "value" : "petstore.tests.UpdatePetTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6aed878ba8c3827a.json",
+  "source" : "522aff2e37e469d9.json",
   "parameterValues" : [ ]
 }

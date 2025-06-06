@@ -24,4 +24,12 @@ public class PetstoreClient {
         return RestAssured.given()
                 .delete(BASE_URL + "/pet/" + id);
     }
+
+    //*
+    public static Response updatePet(Pet pet) {
+        return RestAssured.given()
+                .contentType("application/json")
+                .body(pet)
+                .put(BASE_URL + "/pet");
+    }
 }

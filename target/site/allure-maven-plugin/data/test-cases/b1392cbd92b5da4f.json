@@ -1,12 +1,12 @@
 {
-  "uid" : "2e0f422f269c6795",
+  "uid" : "b1392cbd92b5da4f",
   "name" : "createUserTest()",
   "fullName" : "petstore.tests.UserTest.createUserTest",
   "historyId" : "c871812e6a33b92ca3257196b02b6e66",
   "time" : {
-    "start" : 1749214405945,
-    "stop" : 1749214407647,
-    "duration" : 1702
+    "start" : 1749251233985,
+    "stop" : 1749251235820,
+    "duration" : 1835
   },
   "description" : "Создание пользователя",
   "descriptionHtml" : "<p>Создание пользователя</p>\n",
@@ -27,7 +27,7 @@
     "value" : "MSI-Prestige"
   }, {
     "name" : "thread",
-    "value" : "31124@MSI-Prestige.main(1)"
+    "value" : "20516@MSI-Prestige.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2e0f422f269c6795.json",
+  "source" : "b1392cbd92b5da4f.json",
   "parameterValues" : [ ]
 }

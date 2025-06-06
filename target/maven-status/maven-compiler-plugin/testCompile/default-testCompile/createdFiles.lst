@@ -7,6 +7,7 @@ petstore\tests\DeletePetTest.class
 petstore\model\Pet$Category.class
 petstore\model\Pet.class
 petstore\steps\PetstoreSteps.class
+petstore\tests\UpdatePetTest.class
 petstore\utils\PetValidator.class
 petstore\model\Pet$PetBuilder.class
 petstore\model\Pet$Tag.class

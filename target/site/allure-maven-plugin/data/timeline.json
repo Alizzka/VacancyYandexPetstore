@@ -4,50 +4,16 @@
   "children" : [ {
     "name" : "MSI-Prestige",
     "children" : [ {
-      "name" : "31124@MSI-Prestige.main(1)",
+      "name" : "20516@MSI-Prestige.main(1)",
       "children" : [ {
         "name" : "deletePetTest()",
-        "uid" : "cf818e509c929e41",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
+        "uid" : "3d16f6f250e72112",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
         "status" : "passed",
         "time" : {
-          "start" : 1749214397129,
-          "stop" : 1749214400021,
-          "duration" : 2892
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "createPetTest()",
-        "uid" : "cf0abb1c8554f65d",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
-        "status" : "passed",
-        "time" : {
-          "start" : 1749214393348,
-          "stop" : 1749214397058,
-          "duration" : 3710
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "getUserByUsernameTest()",
-        "uid" : "6aed878ba8c3827a",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
-        "status" : "passed",
-        "time" : {
-          "start" : 1749214407659,
-          "stop" : 1749214410043,
-          "duration" : 2384
+          "start" : 1749251222080,
+          "stop" : 1749251224978,
+          "duration" : 2898
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,30 +24,13 @@
         "parameters" : [ ]
       }, {
         "name" : "updateUserTest()",
-        "uid" : "7df8d21de333e937",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
+        "uid" : "e432ba3e81579ec0",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
         "status" : "passed",
         "time" : {
-          "start" : 1749214402673,
-          "stop" : 1749214405930,
-          "duration" : 3257
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "getPetByIdTest()",
-        "uid" : "3a4e5ad8ccdb0be5",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
-        "status" : "passed",
-        "time" : {
-          "start" : 1749214400030,
-          "stop" : 1749214402666,
-          "duration" : 2636
+          "start" : 1749251230309,
+          "stop" : 1749251233973,
+          "duration" : 3664
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,13 +41,47 @@
         "parameters" : [ ]
       }, {
         "name" : "deleteUserTest()",
-        "uid" : "fd47347b45031477",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
+        "uid" : "6c78a1caa40140c5",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
         "status" : "passed",
         "time" : {
-          "start" : 1749214410055,
-          "stop" : 1749214411752,
-          "duration" : 1697
+          "start" : 1749251238469,
+          "stop" : 1749251240072,
+          "duration" : 1603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldUpdatePetSuccessfully()",
+        "uid" : "522aff2e37e469d9",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749251227853,
+          "stop" : 1749251230294,
+          "duration" : 2441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getPetByIdTest()",
+        "uid" : "748f0bc97e54c2c7",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749251224988,
+          "stop" : 1749251227841,
+          "duration" : 2853
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,13 +92,47 @@
         "parameters" : [ ]
       }, {
         "name" : "createUserTest()",
-        "uid" : "2e0f422f269c6795",
-        "parentUid" : "b01023680b96924171303ec6bc363b68",
+        "uid" : "b1392cbd92b5da4f",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
         "status" : "passed",
         "time" : {
-          "start" : 1749214405945,
-          "stop" : 1749214407647,
-          "duration" : 1702
+          "start" : 1749251233985,
+          "stop" : 1749251235820,
+          "duration" : 1835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createPetTest()",
+        "uid" : "145b215895ceecd6",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749251216799,
+          "stop" : 1749251222027,
+          "duration" : 5228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getUserByUsernameTest()",
+        "uid" : "a697a9c669cdfc42",
+        "parentUid" : "cca2c60244ba6d68ca9c2aa82f391951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749251235830,
+          "stop" : 1749251238464,
+          "duration" : 2634
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,7 +142,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b01023680b96924171303ec6bc363b68"
+      "uid" : "cca2c60244ba6d68ca9c2aa82f391951"
     } ],
     "uid" : "b8030b0c79b61a08fe67e859b4ce3a6a"
   } ]
