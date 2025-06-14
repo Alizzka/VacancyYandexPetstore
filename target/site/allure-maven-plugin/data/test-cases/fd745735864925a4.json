@@ -1,0 +1,143 @@
+{
+  "uid" : "fd745735864925a4",
+  "name" : "getUserByUsernameTest()",
+  "fullName" : "petstore.tests.UserTest.getUserByUsernameTest",
+  "historyId" : "ddcf943e3dd3a1d4c8914efc3809cc4e",
+  "time" : {
+    "start" : 1749944338807,
+    "stop" : 1749944341421,
+    "duration" : 2614
+  },
+  "description" : "Получение пользователя по username",
+  "descriptionHtml" : "<p>Получение пользователя по username</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:petstore.tests.UserTest]/[method:getUserByUsernameTest()]"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "23516@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "petstore.tests.UserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "petstore.tests.UserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserByUsernameTest"
+  }, {
+    "name" : "suite",
+    "value" : "petstore.tests.UserTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a24706d93049fdeb",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1749944302608,
+        "stop" : 1749944305238,
+        "duration" : 2630
+      }
+    }, {
+      "uid" : "34497fca99839754",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1749944270564,
+        "stop" : 1749944273322,
+        "duration" : 2758
+      }
+    }, {
+      "uid" : "ae598743b97b4fba",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1749944231555,
+        "stop" : 1749944234517,
+        "duration" : 2962
+      }
+    }, {
+      "uid" : "30d9e95c1746a741",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1749944178948,
+        "stop" : 1749944181773,
+        "duration" : 2825
+      }
+    }, {
+      "uid" : "68d8d93b25df88d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944147279,
+        "stop" : 1749944150135,
+        "duration" : 2856
+      }
+    }, {
+      "uid" : "a004c4c5e6d9fe91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944107802,
+        "stop" : 1749944113988,
+        "duration" : 6186
+      }
+    }, {
+      "uid" : "9d3589129581257",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1749944074461,
+        "stop" : 1749944077538,
+        "duration" : 3077
+      }
+    }, {
+      "uid" : "ad4778225211a7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749943923635,
+        "stop" : 1749943926286,
+        "duration" : 2651
+      }
+    }, {
+      "uid" : "61236ca8acc6115b",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1749943847865,
+        "stop" : 1749943850411,
+        "duration" : 2546
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd745735864925a4.json",
+  "parameterValues" : [ ]
+}

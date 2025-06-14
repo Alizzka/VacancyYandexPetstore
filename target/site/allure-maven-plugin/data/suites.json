@@ -1,0 +1,161 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "petstore.tests.CreatePetTest",
+    "children" : [ {
+      "name" : "createPetTest()",
+      "uid" : "4c78e5dee986cccb",
+      "parentUid" : "607ebae395b18108c9540471c645e0df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944320439,
+        "stop" : 1749944324260,
+        "duration" : 3821
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "607ebae395b18108c9540471c645e0df"
+  }, {
+    "name" : "petstore.tests.DeletePetTest",
+    "children" : [ {
+      "name" : "deletePetTest()",
+      "uid" : "6bf9e24ce080ccb8",
+      "parentUid" : "75393bbcf63f066a29e7befbf7f58e77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944324313,
+        "stop" : 1749944327810,
+        "duration" : 3497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "75393bbcf63f066a29e7befbf7f58e77"
+  }, {
+    "name" : "petstore.tests.GetPetTest",
+    "children" : [ {
+      "name" : "getPetByIdTest()",
+      "uid" : "d034f1de5c85230d",
+      "parentUid" : "9e4f5f2a70d3b454d04eabfdfb9f8f72",
+      "status" : "failed",
+      "time" : {
+        "start" : 1749944327823,
+        "stop" : 1749944330464,
+        "duration" : 2641
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9e4f5f2a70d3b454d04eabfdfb9f8f72"
+  }, {
+    "name" : "petstore.tests.UpdatePetTest",
+    "children" : [ {
+      "name" : "shouldUpdatePetSuccessfully()",
+      "uid" : "a7a29ee5ca384c80",
+      "parentUid" : "87159db7c3f082bf6c3b430a878679c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944330476,
+        "stop" : 1749944333229,
+        "duration" : 2753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "87159db7c3f082bf6c3b430a878679c6"
+  }, {
+    "name" : "petstore.tests.UserTest",
+    "children" : [ {
+      "name" : "updateUserTest()",
+      "uid" : "8f18d26f388f3940",
+      "parentUid" : "a549315b99e3448c6f3bdaf6ae087a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944333243,
+        "stop" : 1749944337066,
+        "duration" : 3823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "createUserTest()",
+      "uid" : "6a3b68425200703b",
+      "parentUid" : "a549315b99e3448c6f3bdaf6ae087a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944337074,
+        "stop" : 1749944338802,
+        "duration" : 1728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getUserByUsernameTest()",
+      "uid" : "fd745735864925a4",
+      "parentUid" : "a549315b99e3448c6f3bdaf6ae087a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944338807,
+        "stop" : 1749944341421,
+        "duration" : 2614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteUserTest()",
+      "uid" : "f1b8bbb45cabc72",
+      "parentUid" : "a549315b99e3448c6f3bdaf6ae087a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749944341429,
+        "stop" : 1749944343287,
+        "duration" : 1858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a549315b99e3448c6f3bdaf6ae087a6a"
+  } ]
+}

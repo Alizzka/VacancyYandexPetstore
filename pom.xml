@@ -97,6 +97,15 @@
             <configuration>
                 <reportVersion>${allure.version}</reportVersion>
             </configuration>
+            <executions>
+                <execution>
+                    <id>allure-report</id>
+                    <phase>package</phase> <!-- чтобы отчет создавался также через команду package -->
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
         </plugin>
         <!-- Для создания jar файла (создавать через вкладку Maven->Lifecycle->package или mvn clean package) -->
         <plugin>

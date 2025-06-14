@@ -1,0 +1,63 @@
+{
+  "uid" : "6e11455d8c29a6fd",
+  "name" : "getPetByIdTest()",
+  "fullName" : "petstore.tests.GetPetTest.getPetByIdTest",
+  "historyId" : "8f4f3d133df0228aca884e49cfd543ea",
+  "time" : {
+    "start" : 1749944167718,
+    "stop" : 1749944170305,
+    "duration" : 2587
+  },
+  "description" : "Получение питомца по ID",
+  "descriptionHtml" : "<p>Получение питомца по ID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:petstore.tests.GetPetTest]/[method:getPetByIdTest()]"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "11380@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "petstore.tests.GetPetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "petstore.tests.GetPetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getPetByIdTest"
+  }, {
+    "name" : "suite",
+    "value" : "petstore.tests.GetPetTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e11455d8c29a6fd.json",
+  "parameterValues" : [ ]
+}

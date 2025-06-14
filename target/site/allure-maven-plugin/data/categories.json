@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "children" : [ {
+        "name" : "getPetByIdTest()",
+        "uid" : "d034f1de5c85230d",
+        "parentUid" : "49e8c4ba724989b1644f4c577d398c8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1749944327823,
+          "stop" : 1749944330464,
+          "duration" : 2641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49e8c4ba724989b1644f4c577d398c8b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

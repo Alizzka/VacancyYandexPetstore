@@ -1,0 +1,81 @@
+[ {
+  "uid" : "6bf9e24ce080ccb8",
+  "name" : "deletePetTest()",
+  "time" : {
+    "start" : 1749944324313,
+    "stop" : 1749944327810,
+    "duration" : 3497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1b8bbb45cabc72",
+  "name" : "deleteUserTest()",
+  "time" : {
+    "start" : 1749944341429,
+    "stop" : 1749944343287,
+    "duration" : 1858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd745735864925a4",
+  "name" : "getUserByUsernameTest()",
+  "time" : {
+    "start" : 1749944338807,
+    "stop" : 1749944341421,
+    "duration" : 2614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f18d26f388f3940",
+  "name" : "updateUserTest()",
+  "time" : {
+    "start" : 1749944333243,
+    "stop" : 1749944337066,
+    "duration" : 3823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c78e5dee986cccb",
+  "name" : "createPetTest()",
+  "time" : {
+    "start" : 1749944320439,
+    "stop" : 1749944324260,
+    "duration" : 3821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d034f1de5c85230d",
+  "name" : "getPetByIdTest()",
+  "time" : {
+    "start" : 1749944327823,
+    "stop" : 1749944330464,
+    "duration" : 2641
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a3b68425200703b",
+  "name" : "createUserTest()",
+  "time" : {
+    "start" : 1749944337074,
+    "stop" : 1749944338802,
+    "duration" : 1728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7a29ee5ca384c80",
+  "name" : "shouldUpdatePetSuccessfully()",
+  "time" : {
+    "start" : 1749944330476,
+    "stop" : 1749944333229,
+    "duration" : 2753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
