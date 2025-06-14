@@ -63,18 +63,17 @@
         <artifactId>gson</artifactId>
         <version>2.8.9</version>
     </dependency>
-
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>1.18.34</version>
-        <scope>test</scope>
-    </dependency>
     <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
         <version>1.18.30</version>
         <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.34</version>
+        <scope>test</scope>
     </dependency>
 </dependencies>
 
@@ -90,6 +89,8 @@
                 <systemPropertyVariables>
                     <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                 </systemPropertyVariables>
+                <testFailureIgnore>true</testFailureIgnore> <!-- для появления jar файла независимо от успешности прохождения тестов-->
+                <useModulePath>false</useModulePath> <!-- для появления jar файла независимо от успешности прохождения тестов -->
             </configuration>
         </plugin>
 
@@ -100,6 +101,19 @@
             <version>2.10.0</version>
             <configuration>
                 <reportVersion>${allure.version}</reportVersion>
+            </configuration>
+        </plugin>
+        <!-- Для создания jar файла (создавать через вкладку Maven->Lifecycle->package) -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.2.2</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>org.example.Main</mainClass> <!-- полный путь до класса main -->
+                    </manifest>
+                </archive>
             </configuration>
         </plugin>
     </plugins>

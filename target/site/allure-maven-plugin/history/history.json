@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a697a9c669cdfc42",
+      "uid" : "bfc787918e862fe5",
       "status" : "passed",
       "time" : {
-        "start" : 1749251235830,
-        "stop" : 1749251238464,
-        "duration" : 2634
+        "start" : 1749939230622,
+        "stop" : 1749939232598,
+        "duration" : 1976
       }
     } ]
   },
   "2529e6777633d31d429888dfdc2e426b" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3d16f6f250e72112",
-      "status" : "passed",
+      "uid" : "543fb11a8254e855",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
       "time" : {
-        "start" : 1749251222080,
-        "stop" : 1749251224978,
-        "duration" : 2898
+        "start" : 1749939220574,
+        "stop" : 1749939221901,
+        "duration" : 1327
       }
     } ]
   },
@@ -47,50 +48,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "522aff2e37e469d9",
+      "uid" : "870b59b9fbb2dfa2",
       "status" : "passed",
       "time" : {
-        "start" : 1749251227853,
-        "stop" : 1749251230294,
-        "duration" : 2441
+        "start" : 1749939223907,
+        "stop" : 1749939225870,
+        "duration" : 1963
       }
     } ]
   },
   "b09fd3f33325af0b5f0e0cd05507b45c" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "145b215895ceecd6",
-      "status" : "passed",
+      "uid" : "a3391dbc4febb9b0",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
       "time" : {
-        "start" : 1749251216799,
-        "stop" : 1749251222027,
-        "duration" : 5228
+        "start" : 1749939217449,
+        "stop" : 1749939220524,
+        "duration" : 3075
       }
     } ]
   },
   "942ed1ec4dcee54fc2bbae29cb01aa98" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c78a1caa40140c5",
-      "status" : "passed",
+      "uid" : "9f174ae1ff0092d9",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <404> but was <200>.\n",
       "time" : {
-        "start" : 1749251238469,
-        "stop" : 1749251240072,
-        "duration" : 1603
+        "start" : 1749939232611,
+        "stop" : 1749939234574,
+        "duration" : 1963
       }
     } ]
   },
@@ -104,12 +107,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e432ba3e81579ec0",
+      "uid" : "b4e3ba7c63918750",
       "status" : "passed",
       "time" : {
-        "start" : 1749251230309,
-        "stop" : 1749251233973,
-        "duration" : 3664
+        "start" : 1749939225878,
+        "stop" : 1749939228505,
+        "duration" : 2627
       }
     } ]
   },
@@ -123,31 +126,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1392cbd92b5da4f",
+      "uid" : "714dfceef74bd2ed",
       "status" : "passed",
       "time" : {
-        "start" : 1749251233985,
-        "stop" : 1749251235820,
-        "duration" : 1835
+        "start" : 1749939228509,
+        "stop" : 1749939230616,
+        "duration" : 2107
       }
     } ]
   },
   "8f4f3d133df0228aca884e49cfd543ea" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "748f0bc97e54c2c7",
-      "status" : "passed",
+      "uid" : "81d15e27f3320f17",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
       "time" : {
-        "start" : 1749251224988,
-        "stop" : 1749251227841,
-        "duration" : 2853
+        "start" : 1749939221910,
+        "stop" : 1749939223889,
+        "duration" : 1979
       }
     } ]
   }
